@@ -9,6 +9,7 @@ $pdo = connect_to_db();
 
 $sql = "DELETE FROM file_table WHERE id=:id";
 
+
 $stmt = $pdo->prepare($sql);
 $stmt->bindValue(':id', $id, PDO::PARAM_INT);
 
@@ -21,3 +22,5 @@ try {
 
 header("Location:upload_form.php");
 exit();
+
+?>

@@ -5,8 +5,9 @@ include("functions.php");
 check_session_id();
 // var_dump(getAllFile());
 // exit();
-$files = getAllFile();
 $user_id = $_SESSION["user_id"];
+$files = getAllFile();
+
 
 $pdo = connect_to_db();
 
@@ -58,7 +59,7 @@ $output .= "
       <ul class="main_ul">
         <li class="top_link"><a href="upload_form.php">X HOUND</a></li>
 
-        <!-- <li><a class="post_window" href="#">投稿</a></li> -->
+        <li><a href="ajax_search.html">検索</a></li>
         <li><a href="index.php">ログアウト</a></li>
       </ul>
     </nav>

@@ -4,7 +4,6 @@
 // exit;
 session_start();
 // DB接続
-
 include("functions.php");
 
 $username = $_POST["username"];

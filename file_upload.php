@@ -15,6 +15,7 @@ $save_filename = date("YmdHis") . $filename;
 $err_msgs = array();
 $save_path = $upload_dir . $save_filename;
 
+
 // キャプション取得
 $caption = filter_input(INPUT_POST, "caption", FILTER_SANITIZE_SPECIAL_CHARS);
 

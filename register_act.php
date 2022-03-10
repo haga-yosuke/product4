@@ -44,5 +44,5 @@ try {
   exit();
 }
 
-header("Location:thanks.php");
+header("Location:top.php");
 exit();

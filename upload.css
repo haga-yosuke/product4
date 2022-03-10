@@ -10,6 +10,8 @@ header{
 
 }
 
+
+
 .form{
         padding: 30px;
         margin: 0 auto;
@@ -165,7 +167,7 @@ ul.main_ul a:hover {
 
 .bun{
     font-size: 30px;
-
+    /* padding-left: 15px; */
 }
 
 
